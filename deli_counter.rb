@@ -10,6 +10,6 @@ def line(katz_deli)
     katz_deli.map do |list|
       lines << "#{i + 1}. #{list}
     end
-    puts "The line is currently"
+    
   end
 end
