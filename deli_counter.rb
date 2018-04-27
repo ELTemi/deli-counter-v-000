@@ -7,8 +7,8 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    katz_deli.map do |list|
-      lines << "#{i + 1}. #{list}"
+    katz_deli.each_with_index do |list|
+      lines << "#{index + 1}. #{list}"
     end
     puts "The line is currently: #{lines.join(" ")}"
   end
