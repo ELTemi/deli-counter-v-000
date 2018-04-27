@@ -8,8 +8,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.map do |list|
-      lines << "#{i + 1}. #{list}
+      lines << "#{i + 1}. #{list}"
     end
-    
+    puts "The line is "
   end
 end
