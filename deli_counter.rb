@@ -9,5 +9,5 @@ def line(katz_deli)
   else
     katz_deli.map { |line| lines << "#{i + 1}. #{line}}
   end
-  return "The line is currently: lines.join"
+  puts "The line is currently:" #{lines.join}
 end
